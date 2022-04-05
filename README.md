@@ -59,6 +59,7 @@ Após fazer a criação do elementos, precisamos adicionar os dados do produto n
 ```js
 // Selecionando elemento ul do HTML
 const ul = document.querySelector('.containerListaProdutos ul');
+const preco = []
 
 function montarListaProdutos(listaProdutos) {
     listaProdutos.forEach((produto) => {
